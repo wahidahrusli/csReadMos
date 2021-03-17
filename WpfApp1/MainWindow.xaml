@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <ComboBox x:Name="cbroId" HorizontalAlignment="Left" Margin="64,101,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnRead" Content="Button" HorizontalAlignment="Left" Margin="64,55,0,0" VerticalAlignment="Top" Click="btnRead_Click"/>
+        Title="MainWindow" Height="260" Width="517">
+    <Grid Margin="0,0,0,12">
+        <ComboBox x:Name="cbroId" HorizontalAlignment="Left" Margin="64,101,0,0" VerticalAlignment="Top" Width="260" DropDownOpened="cbroId_DropDownOpened"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="360,101,0,0" VerticalAlignment="Top" Click="btnSave_Click" Width="69" Height="22"/>
     </Grid>
 </Window>

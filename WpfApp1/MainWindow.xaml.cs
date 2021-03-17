@@ -24,54 +24,41 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-        }
 
-        private void btnRead_Click(object sender, RoutedEventArgs e)
-        {
-            var mosList = new Dictionary<XElement, XElement>();
-
+            // find <roID, IList<MosMessage>>
             var doc = XDocument
-                .Load(@"C:\Users\AWR03011\Desktop\Onboard Training\Repositories\csTraining1\101620_MOPLogs.mtl.xml")
+                .Load(@"C:\Users\AWR03011\source\repos\WpfApp1\101620_MOPLogs.mtl.xml")
                 .Root
                 .Descendants("LogEntry")
                 .Descendants("RawMOS")
-
                 .Select(x => (
                     roId: XDocument
                         .Parse(x.Value)
                         .Root
                         .Elements()
                         .ElementAt(2)
-                        .Element("roID")
-                        ,
+                        .Element("roID"),
                     rawMos: x
                 ))
                 .ToList();
-                /**
-                .GroupBy(x => x.roId)
-                .ToDictionary(
-                    x => x.Key,
-                    x => x.
-                    )
-                */
-                ;
-
-            
-
-            doc.ForEach(x => x.roId.Value.ToList().Distinct());
-
-            foreach (var lala in doc)
-            {
-                cbroId.Items.Add(lala);
-            }
             /**
-            foreach (var each in doc)
-            {
-                MessageBox.Show(each.ToString());
-
-            }
+            .GroupBy(x => x.roId)
+            .ToDictionary(
+                x => x.Key,
+                x => x.
+                )
             */
 
+            // add in combobox
+            doc.Select(x => x.roId.Value)
+                .Distinct()
+                .ToList()
+                .ForEach(x => cbroId.Items.Add(x));
+        }
+
+        private void btnSave_Click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }
