@@ -21,8 +21,7 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
-        public List<(string, XElement)> xdoc;
-        public Dictionary<string, IList<XElement>> doc;
+        public Dictionary<string, IGrouping<string, XElement>> doc;
 
         public MainWindow()
         {
@@ -32,41 +31,19 @@ namespace WpfApp1
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-                       
-            // find <roID, IList<MosMessage>>
-            xdoc = XDocument
+            doc = XDocument
                 .Load(@"C:\Users\AWR03011\source\repos\WpfApp1\101620_MOPLogs.mtl.xml")
-                .Root
-                .Descendants("LogEntry")
-                .Descendants("RawMOS")
-                .Select(x => (
-                    roId: XDocument
-                        .Parse(x.Value)
-                        .Root
-                        .Elements()
-                        .ElementAt(2)
-                        .Element("roID")
-                        .Value,
-                    rawMos: XDocument.Parse(x.Value).Root
-                ))
-                /**
-                .GroupBy(x => x.roId)
+                .Root.Descendants("LogEntry").Descendants("RawMOS")
+                .Select(x => XDocument.Parse(x.Value).Root)
+                .GroupBy(x => x.Elements().ElementAt(2).Element("roID").Value)
                 .ToDictionary(
                     x => x.Key,
-                    x => x.Select(s => s.rawMos)
-                )
-                */
-                .ToList()
-                
-                ;
-
-            xdoc.GroupBy(x => x.Item1)
-                .Select(x => x.First())
-                .ToList()
-                .ForEach(x => cbroId.Items.Add(x.Item1))
-            ;
-
+                    x => x
+                );
             
+            // Adding roID inside cboroId
+            doc.Keys.ToList().ForEach(x => cbroId.Items.Add(x));
+                        
         }
 
 
@@ -76,12 +53,10 @@ namespace WpfApp1
 
             var tosave = new XDocument(new XElement("RawMOS"));
 
-            xdoc.Where(x => x.Item1 == choice)
-                .Select(x => x.Item2)
-                .ToList()
-                .ForEach(x => tosave.Root.Add(x));  
+            doc.Values.ToList().Where(x => x.Key == choice)
+                .ToList().ForEach(x => tosave.Root.Add(x));
 
-            tosave.Save("Sample.xml");
+            tosave.Save(@"C:\Users\AWR03011\source\repos\WpfApp1\MosList.xml");
         }
 
     }
