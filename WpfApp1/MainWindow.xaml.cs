@@ -21,12 +21,20 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        public List<(string, XElement)> xdoc;
+        public Dictionary<string, IList<XElement>> doc;
+
         public MainWindow()
         {
             InitializeComponent();
+                        
+        }
 
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+                       
             // find <roID, IList<MosMessage>>
-            var doc = XDocument
+            xdoc = XDocument
                 .Load(@"C:\Users\AWR03011\source\repos\WpfApp1\101620_MOPLogs.mtl.xml")
                 .Root
                 .Descendants("LogEntry")
@@ -37,28 +45,44 @@ namespace WpfApp1
                         .Root
                         .Elements()
                         .ElementAt(2)
-                        .Element("roID"),
-                    rawMos: x
+                        .Element("roID")
+                        .Value,
+                    rawMos: XDocument.Parse(x.Value).Root
                 ))
-                .ToList();
-            /**
-            .GroupBy(x => x.roId)
-            .ToDictionary(
-                x => x.Key,
-                x => x.
+                /**
+                .GroupBy(x => x.roId)
+                .ToDictionary(
+                    x => x.Key,
+                    x => x.Select(s => s.rawMos)
                 )
-            */
-
-            // add in combobox
-            doc.Select(x => x.roId.Value)
-                .Distinct()
+                */
                 .ToList()
-                .ForEach(x => cbroId.Items.Add(x));
+                
+                ;
+
+            xdoc.GroupBy(x => x.Item1)
+                .Select(x => x.First())
+                .ToList()
+                .ForEach(x => cbroId.Items.Add(x.Item1))
+            ;
+
+            
         }
+
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
-            
+            var choice = cbroId.SelectedItem.ToString();
+
+            var tosave = new XDocument(new XElement("RawMOS"));
+
+            xdoc.Where(x => x.Item1 == choice)
+                .Select(x => x.Item2)
+                .ToList()
+                .ForEach(x => tosave.Root.Add(x));  
+
+            tosave.Save("Sample.xml");
         }
+
     }
 }

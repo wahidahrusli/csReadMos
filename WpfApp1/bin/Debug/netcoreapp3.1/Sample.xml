@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <mos>
+    <mosID>IGNITE.MOP</mosID>
+    <ncsID>WRTV</ncsID>
+    <roStorySend>
+      <roID>WRTV/SHOW.856AM.RUNDOWN</roID>
+      <storyID>124085029</storyID>
+      <storySlug>COVID TESTING</storySlug>
+      <storyNum>706</storyNum>
+      <mosExternalMetadata>
+        <mosPayload>
+          <nsml:nsml xmlns:nsml="http://www.avid.com">
+            <nsml:head>
+              <nsml:meta words="37" rate="180" />
+              <nsml:wgroup number="15" />
+              <nsml:formname>STORYFORM</nsml:formname>
+              <nsml:storyid>07656325:012cc5e4:5f899659</nsml:storyid>
+            </nsml:head>
+            <nsml:fields>
+              <nsml:f id="v-dir" />
+              <nsml:f id="var-1" />
+              <nsml:f id="page-number">706</nsml:f>
+              <nsml:f id="presenter">LC</nsml:f>
+              <nsml:f id="title">COVID TESTING</nsml:f>
+              <nsml:f id="v-ap">TB*</nsml:f>
+              <nsml:f id="format">FS</nsml:f>
+              <nsml:f id="var-5" />
+              <nsml:f id="graphics" />
+              <nsml:f id="v-graphic" />
+              <nsml:f id="runs-time">0</nsml:f>
+              <nsml:f id="audio-time">12</nsml:f>
+              <nsml:f id="total-time">12</nsml:f>
+              <nsml:f id="back-time" />
+              <nsml:f id="endorse-by">tlogan</nsml:f>
+              <nsml:f id="cam" />
+              <nsml:f id="shot" />
+              <nsml:f id="item-channel" />
+              <nsml:f id="video-id" />
+              <nsml:f id="event-status" />
+              <nsml:f id="tape" />
+              <nsml:f id="modify-date">1602852441</nsml:f>
+              <nsml:f id="modify-by">druffo</nsml:f>
+              <nsml:f id="edby" />
+              <nsml:f id="status">OK</nsml:f>
+              <nsml:f id="timecode" />
+              <nsml:f id="app4-1" />
+              <nsml:f id="app5-1" />
+              <nsml:f id="app6-1" />
+              <nsml:f id="tme">CGCEC-</nsml:f>
+              <nsml:f id="air-date" />
+            </nsml:fields>
+            <nsml:body>
+              <nsml:p>
+                <nsml:a idref="0" />
+                <nsml:pi>FS LAUREN</nsml:pi>
+                <nsml:a idref="1" />
+                <nsml:pi>no font</nsml:pi>
+              </nsml:p>
+              <nsml:p>
+                <nsml:tab />HEALTH OFFICIALS CONTINUE TO ENCOURAGE PEOPLE TO GET TESTED FOR COVID.</nsml:p>
+              <nsml:p>
+                <nsml:tab />ANYONE WHO LIVES OR WORKS IN INDIANA CAN GET TESTED FOR FREE.</nsml:p>
+              <nsml:p>
+                <nsml:tab />REGISTER BY GOING TO "L-H-I DOT CARE SLASH COVID TESTING".</nsml:p>
+              <nsml:p>
+                <nsml:tab />OR BY CALLING 888-634-1116.</nsml:p>
+            </nsml:body>
+            <nsml:aeset>
+              <nsml:ae id="0">
+                <nsml:ap>]] S3.0 G 0 [[</nsml:ap>
+                <nsml:ap>FULL SCREEN</nsml:ap>
+              </nsml:ae>
+              <nsml:ae id="1">
+                <nsml:ap>]] S3.0 M 0 [[</nsml:ap>
+                <nsml:mc>
+                  <nsml:ap>MOSCG ]] 1 YNNAM 0 [[ [T] [00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</nsml:ap>
+                </nsml:mc>
+              </nsml:ae>
+            </nsml:aeset>
+            <nsml:aeset-atts>
+              <nsml:attachment id="1">
+                <AttachmentContent>
+                  <mos>
+                    <mosID>WRTVCAM</mosID>
+                    <ncsID>WRTV</ncsID>
+                    <mosObj>
+                      <objID>SCRIPPS 2019 WRTV\00030335</objID>
+                      <objSlug>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</objSlug>
+                      <mosItemEditorProgID>Chymox.AssetBrowser.1</mosItemEditorProgID>
+                      <mosAbstract>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</mosAbstract>
+                      <itemChannel>T</itemChannel>
+                      <objPaths>
+                        <objProxyPath techDescription="PNG Proxy">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_proxy.png</objProxyPath>
+                        <objProxyPath techDescription="JPEG Thumbnail">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_big.jpg</objProxyPath>
+                      </objPaths>
+                      <mosExternalMetadata>
+                        <mosScope>PLAYLIST</mosScope>
+                        <mosSchema>http://ncsA4.com/mos/supported_schemas/NCSAXML2.08</mosSchema>
+                        <mosPayload>
+                          <sAVsom />
+                          <sAVeom />
+                          <createdBy>tbroz</createdBy>
+                          <subtype>prime-graphics</subtype>
+                          <subtypeid>I:\CAMIO4\SCRIPPS 2019 WRTV\Scenes\FS Bullets Image Video.crd</subtypeid>
+                          <ObjectDetails>
+                            <ServerID>WRTVCAM</ServerID>
+                            <ServerURL>http://10.38.10.72/CAMIO4/Services/Redirection/MosRedirectionService.svc</ServerURL>
+                            <layer>1</layer>
+                            <style />
+                            <pausecount>-1</pausecount>
+                          </ObjectDetails>
+                        </mosPayload>
+                      </mosExternalMetadata>
+                    </mosObj>
+                    <itemID>1</itemID>
+                    <ncsItem />
+                  </mos>
+                </AttachmentContent>
+              </nsml:attachment>
+            </nsml:aeset-atts>
+          </nsml:nsml>
+        </mosPayload>
+      </mosExternalMetadata>
+      <storyBody>
+        <p />
+        <p>
+          <pi>FS LAUREN</pi>
+        </p>
+        <storyItem>
+          <mosID>WRTVCAM</mosID>
+          <ncsID>WRTV</ncsID>
+          <mosObj>
+            <objID>SCRIPPS 2019 WRTV\00030335</objID>
+            <objSlug>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</objSlug>
+            <mosItemEditorProgID>Chymox.AssetBrowser.1</mosItemEditorProgID>
+            <mosAbstract>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</mosAbstract>
+            <itemChannel>T</itemChannel>
+            <objPaths>
+              <objProxyPath techDescription="PNG Proxy">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_proxy.png</objProxyPath>
+              <objProxyPath techDescription="JPEG Thumbnail">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_big.jpg</objProxyPath>
+            </objPaths>
+            <mosExternalMetadata>
+              <mosScope>PLAYLIST</mosScope>
+              <mosSchema>http://ncsA4.com/mos/supported_schemas/NCSAXML2.08</mosSchema>
+              <mosPayload>
+                <sAVsom />
+                <sAVeom />
+                <createdBy>tbroz</createdBy>
+                <subtype>prime-graphics</subtype>
+                <subtypeid>I:\CAMIO4\SCRIPPS 2019 WRTV\Scenes\FS Bullets Image Video.crd</subtypeid>
+                <ObjectDetails>
+                  <ServerID>WRTVCAM</ServerID>
+                  <ServerURL>http://10.38.10.72/CAMIO4/Services/Redirection/MosRedirectionService.svc</ServerURL>
+                  <layer>1</layer>
+                  <style />
+                  <pausecount>-1</pausecount>
+                </ObjectDetails>
+              </mosPayload>
+            </mosExternalMetadata>
+          </mosObj>
+          <itemID>1</itemID>
+          <ncsItem />
+        </storyItem>
+        <p>
+          <pi>no font</pi>
+        </p>
+        <p>
+          <tab />HEALTH OFFICIALS CONTINUE TO ENCOURAGE PEOPLE TO GET TESTED FOR COVID.</p>
+        <p>
+          <tab />ANYONE WHO LIVES OR WORKS IN INDIANA CAN GET TESTED FOR FREE.</p>
+        <p>
+          <tab />REGISTER BY GOING TO "L-H-I DOT CARE SLASH COVID TESTING".</p>
+        <p>
+          <tab />OR BY CALLING 888-634-1116.</p>
+      </storyBody>
+    </roStorySend>
+  </mos>
+  <mos>
+    <mosID>IGNITE.MOP</mosID>
+    <ncsID>WRTV</ncsID>
+    <roStorySend>
+      <roID>WRTV/SHOW.856AM.RUNDOWN</roID>
+      <storyID>124085029</storyID>
+      <storySlug>COVID TESTING</storySlug>
+      <storyNum>706</storyNum>
+      <mosExternalMetadata>
+        <mosPayload>
+          <nsml:nsml xmlns:nsml="http://www.avid.com">
+            <nsml:head>
+              <nsml:meta words="37" rate="180" />
+              <nsml:wgroup number="15" />
+              <nsml:formname>STORYFORM</nsml:formname>
+              <nsml:storyid>07656325:012d0efe:5f89975c</nsml:storyid>
+            </nsml:head>
+            <nsml:fields>
+              <nsml:f id="v-dir" />
+              <nsml:f id="var-1" />
+              <nsml:f id="page-number">706</nsml:f>
+              <nsml:f id="presenter">LC</nsml:f>
+              <nsml:f id="title">COVID TESTING</nsml:f>
+              <nsml:f id="v-ap">TB*</nsml:f>
+              <nsml:f id="format">FS</nsml:f>
+              <nsml:f id="var-5" />
+              <nsml:f id="graphics" />
+              <nsml:f id="v-graphic" />
+              <nsml:f id="runs-time">0</nsml:f>
+              <nsml:f id="audio-time">12</nsml:f>
+              <nsml:f id="total-time">12</nsml:f>
+              <nsml:f id="back-time" />
+              <nsml:f id="endorse-by">tlogan</nsml:f>
+              <nsml:f id="cam" />
+              <nsml:f id="shot" />
+              <nsml:f id="item-channel" />
+              <nsml:f id="video-id" />
+              <nsml:f id="event-status" />
+              <nsml:f id="tape" />
+              <nsml:f id="modify-date">1602852700</nsml:f>
+              <nsml:f id="modify-by">druffo</nsml:f>
+              <nsml:f id="edby" />
+              <nsml:f id="status">OK</nsml:f>
+              <nsml:f id="timecode" />
+              <nsml:f id="app4-1" />
+              <nsml:f id="app5-1" />
+              <nsml:f id="app6-1" />
+              <nsml:f id="tme">CGDEC-</nsml:f>
+              <nsml:f id="air-date" />
+            </nsml:fields>
+            <nsml:body>
+              <nsml:p>
+                <nsml:a idref="0" />
+                <nsml:pi>FS LAUREN</nsml:pi>
+                <nsml:a idref="1" />
+                <nsml:pi>no font</nsml:pi>
+              </nsml:p>
+              <nsml:p>
+                <nsml:tab />HEALTH OFFICIALS CONTINUE TO ENCOURAGE PEOPLE TO GET TESTED FOR COVID.</nsml:p>
+              <nsml:p>
+                <nsml:tab />ANYONE WHO LIVES OR WORKS IN INDIANA CAN GET TESTED FOR FREE.</nsml:p>
+              <nsml:p>
+                <nsml:tab />REGISTER BY GOING TO "L-H-I DOT CARE SLASH COVID TESTING".</nsml:p>
+              <nsml:p>
+                <nsml:tab />OR BY CALLING 888-634-1116.</nsml:p>
+            </nsml:body>
+            <nsml:aeset>
+              <nsml:ae id="0">
+                <nsml:ap>]] S3.0 G 0 [[</nsml:ap>
+                <nsml:ap>FULL SCREEN</nsml:ap>
+              </nsml:ae>
+              <nsml:ae id="1">
+                <nsml:ap>]] S3.0 M 0 [[</nsml:ap>
+                <nsml:mc>
+                  <nsml:ap>MOSCG ]] 1 YNNAM 0 [[ [T] [00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</nsml:ap>
+                </nsml:mc>
+              </nsml:ae>
+            </nsml:aeset>
+            <nsml:aeset-atts>
+              <nsml:attachment id="1">
+                <AttachmentContent>
+                  <mos>
+                    <mosID>WRTVCAM</mosID>
+                    <ncsID>WRTV</ncsID>
+                    <mosObj>
+                      <objID>SCRIPPS 2019 WRTV\00030335</objID>
+                      <objSlug>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</objSlug>
+                      <mosItemEditorProgID>Chymox.AssetBrowser.1</mosItemEditorProgID>
+                      <mosAbstract>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</mosAbstract>
+                      <itemChannel>T</itemChannel>
+                      <objPaths>
+                        <objProxyPath techDescription="PNG Proxy">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_proxy.png</objProxyPath>
+                        <objProxyPath techDescription="JPEG Thumbnail">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_big.jpg</objProxyPath>
+                      </objPaths>
+                      <mosExternalMetadata>
+                        <mosScope>PLAYLIST</mosScope>
+                        <mosSchema>http://ncsA4.com/mos/supported_schemas/NCSAXML2.08</mosSchema>
+                        <mosPayload>
+                          <sAVsom />
+                          <sAVeom />
+                          <createdBy>tbroz</createdBy>
+                          <subtype>prime-graphics</subtype>
+                          <subtypeid>I:\CAMIO4\SCRIPPS 2019 WRTV\Scenes\FS Bullets Image Video.crd</subtypeid>
+                          <ObjectDetails>
+                            <ServerID>WRTVCAM</ServerID>
+                            <ServerURL>http://10.38.10.72/CAMIO4/Services/Redirection/MosRedirectionService.svc</ServerURL>
+                            <layer>1</layer>
+                            <style />
+                            <pausecount>-1</pausecount>
+                          </ObjectDetails>
+                        </mosPayload>
+                      </mosExternalMetadata>
+                    </mosObj>
+                    <itemID>1</itemID>
+                    <ncsItem />
+                  </mos>
+                </AttachmentContent>
+              </nsml:attachment>
+            </nsml:aeset-atts>
+          </nsml:nsml>
+        </mosPayload>
+      </mosExternalMetadata>
+      <storyBody>
+        <p />
+        <p>
+          <pi>FS LAUREN</pi>
+        </p>
+        <storyItem>
+          <mosID>WRTVCAM</mosID>
+          <ncsID>WRTV</ncsID>
+          <mosObj>
+            <objID>SCRIPPS 2019 WRTV\00030335</objID>
+            <objSlug>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</objSlug>
+            <mosItemEditorProgID>Chymox.AssetBrowser.1</mosItemEditorProgID>
+            <mosAbstract>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</mosAbstract>
+            <itemChannel>T</itemChannel>
+            <objPaths>
+              <objProxyPath techDescription="PNG Proxy">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_proxy.png</objProxyPath>
+              <objProxyPath techDescription="JPEG Thumbnail">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_big.jpg</objProxyPath>
+            </objPaths>
+            <mosExternalMetadata>
+              <mosScope>PLAYLIST</mosScope>
+              <mosSchema>http://ncsA4.com/mos/supported_schemas/NCSAXML2.08</mosSchema>
+              <mosPayload>
+                <sAVsom />
+                <sAVeom />
+                <createdBy>tbroz</createdBy>
+                <subtype>prime-graphics</subtype>
+                <subtypeid>I:\CAMIO4\SCRIPPS 2019 WRTV\Scenes\FS Bullets Image Video.crd</subtypeid>
+                <ObjectDetails>
+                  <ServerID>WRTVCAM</ServerID>
+                  <ServerURL>http://10.38.10.72/CAMIO4/Services/Redirection/MosRedirectionService.svc</ServerURL>
+                  <layer>1</layer>
+                  <style />
+                  <pausecount>-1</pausecount>
+                </ObjectDetails>
+              </mosPayload>
+            </mosExternalMetadata>
+          </mosObj>
+          <itemID>1</itemID>
+          <ncsItem />
+        </storyItem>
+        <p>
+          <pi>no font</pi>
+        </p>
+        <p>
+          <tab />HEALTH OFFICIALS CONTINUE TO ENCOURAGE PEOPLE TO GET TESTED FOR COVID.</p>
+        <p>
+          <tab />ANYONE WHO LIVES OR WORKS IN INDIANA CAN GET TESTED FOR FREE.</p>
+        <p>
+          <tab />REGISTER BY GOING TO "L-H-I DOT CARE SLASH COVID TESTING".</p>
+        <p>
+          <tab />OR BY CALLING 888-634-1116.</p>
+      </storyBody>
+    </roStorySend>
+  </mos>
+  <mos>
+    <mosID>IGNITE.MOP</mosID>
+    <ncsID>WRTV</ncsID>
+    <roStorySend>
+      <roID>WRTV/SHOW.856AM.RUNDOWN</roID>
+      <storyID>124085029</storyID>
+      <storySlug>COVID TESTING</storySlug>
+      <storyNum>706</storyNum>
+      <mosExternalMetadata>
+        <mosPayload>
+          <nsml:nsml xmlns:nsml="http://www.avid.com">
+            <nsml:head>
+              <nsml:meta words="37" rate="180" />
+              <nsml:wgroup number="15" />
+              <nsml:formname>STORYFORM</nsml:formname>
+              <nsml:storyid>07656325:012d15e8:5f8997a6</nsml:storyid>
+            </nsml:head>
+            <nsml:fields>
+              <nsml:f id="v-dir" />
+              <nsml:f id="var-1" />
+              <nsml:f id="page-number">706</nsml:f>
+              <nsml:f id="presenter">LC</nsml:f>
+              <nsml:f id="title">COVID TESTING</nsml:f>
+              <nsml:f id="v-ap">TB*</nsml:f>
+              <nsml:f id="format">FS</nsml:f>
+              <nsml:f id="var-5" />
+              <nsml:f id="graphics" />
+              <nsml:f id="v-graphic" />
+              <nsml:f id="runs-time">0</nsml:f>
+              <nsml:f id="audio-time">12</nsml:f>
+              <nsml:f id="total-time">12</nsml:f>
+              <nsml:f id="back-time" />
+              <nsml:f id="endorse-by">tlogan</nsml:f>
+              <nsml:f id="cam" />
+              <nsml:f id="shot" />
+              <nsml:f id="item-channel" />
+              <nsml:f id="video-id" />
+              <nsml:f id="event-status" />
+              <nsml:f id="tape" />
+              <nsml:f id="modify-date">1602852774</nsml:f>
+              <nsml:f id="modify-by">druffo</nsml:f>
+              <nsml:f id="edby" />
+              <nsml:f id="status">OK</nsml:f>
+              <nsml:f id="timecode" />
+              <nsml:f id="app4-1" />
+              <nsml:f id="app5-1" />
+              <nsml:f id="app6-1" />
+              <nsml:f id="tme">CGCEC-</nsml:f>
+              <nsml:f id="air-date" />
+            </nsml:fields>
+            <nsml:body>
+              <nsml:p>
+                <nsml:a idref="0" />
+                <nsml:pi>FS LAUREN</nsml:pi>
+                <nsml:a idref="1" />
+                <nsml:pi>no font</nsml:pi>
+              </nsml:p>
+              <nsml:p>
+                <nsml:tab />HEALTH OFFICIALS CONTINUE TO ENCOURAGE PEOPLE TO GET TESTED FOR COVID.</nsml:p>
+              <nsml:p>
+                <nsml:tab />ANYONE WHO LIVES OR WORKS IN INDIANA CAN GET TESTED FOR FREE.</nsml:p>
+              <nsml:p>
+                <nsml:tab />REGISTER BY GOING TO "L-H-I DOT CARE SLASH COVID TESTING".</nsml:p>
+              <nsml:p>
+                <nsml:tab />OR BY CALLING 888-634-1116.</nsml:p>
+            </nsml:body>
+            <nsml:aeset>
+              <nsml:ae id="0">
+                <nsml:ap>]] S3.0 G 0 [[</nsml:ap>
+                <nsml:ap>FULL SCREEN</nsml:ap>
+              </nsml:ae>
+              <nsml:ae id="1">
+                <nsml:ap>]] S3.0 M 0 [[</nsml:ap>
+                <nsml:mc>
+                  <nsml:ap>MOSCG ]] 1 YNNAM 0 [[ [T] [00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</nsml:ap>
+                </nsml:mc>
+              </nsml:ae>
+            </nsml:aeset>
+            <nsml:aeset-atts>
+              <nsml:attachment id="1">
+                <AttachmentContent>
+                  <mos>
+                    <mosID>WRTVCAM</mosID>
+                    <ncsID>WRTV</ncsID>
+                    <mosObj>
+                      <objID>SCRIPPS 2019 WRTV\00030335</objID>
+                      <objSlug>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</objSlug>
+                      <mosItemEditorProgID>Chymox.AssetBrowser.1</mosItemEditorProgID>
+                      <mosAbstract>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</mosAbstract>
+                      <itemChannel>T</itemChannel>
+                      <objPaths>
+                        <objProxyPath techDescription="PNG Proxy">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_proxy.png</objProxyPath>
+                        <objProxyPath techDescription="JPEG Thumbnail">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_big.jpg</objProxyPath>
+                      </objPaths>
+                      <mosExternalMetadata>
+                        <mosScope>PLAYLIST</mosScope>
+                        <mosSchema>http://ncsA4.com/mos/supported_schemas/NCSAXML2.08</mosSchema>
+                        <mosPayload>
+                          <sAVsom />
+                          <sAVeom />
+                          <createdBy>tbroz</createdBy>
+                          <subtype>prime-graphics</subtype>
+                          <subtypeid>I:\CAMIO4\SCRIPPS 2019 WRTV\Scenes\FS Bullets Image Video.crd</subtypeid>
+                          <ObjectDetails>
+                            <ServerID>WRTVCAM</ServerID>
+                            <ServerURL>http://10.38.10.72/CAMIO4/Services/Redirection/MosRedirectionService.svc</ServerURL>
+                            <layer>1</layer>
+                            <style />
+                            <pausecount>-1</pausecount>
+                          </ObjectDetails>
+                        </mosPayload>
+                      </mosExternalMetadata>
+                    </mosObj>
+                    <itemID>1</itemID>
+                    <ncsItem />
+                  </mos>
+                </AttachmentContent>
+              </nsml:attachment>
+            </nsml:aeset-atts>
+          </nsml:nsml>
+        </mosPayload>
+      </mosExternalMetadata>
+      <storyBody>
+        <p />
+        <p>
+          <pi>FS LAUREN</pi>
+        </p>
+        <storyItem>
+          <mosID>WRTVCAM</mosID>
+          <ncsID>WRTV</ncsID>
+          <mosObj>
+            <objID>SCRIPPS 2019 WRTV\00030335</objID>
+            <objSlug>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</objSlug>
+            <mosItemEditorProgID>Chymox.AssetBrowser.1</mosItemEditorProgID>
+            <mosAbstract>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</mosAbstract>
+            <itemChannel>T</itemChannel>
+            <objPaths>
+              <objProxyPath techDescription="PNG Proxy">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_proxy.png</objProxyPath>
+              <objProxyPath techDescription="JPEG Thumbnail">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_big.jpg</objProxyPath>
+            </objPaths>
+            <mosExternalMetadata>
+              <mosScope>PLAYLIST</mosScope>
+              <mosSchema>http://ncsA4.com/mos/supported_schemas/NCSAXML2.08</mosSchema>
+              <mosPayload>
+                <sAVsom />
+                <sAVeom />
+                <createdBy>tbroz</createdBy>
+                <subtype>prime-graphics</subtype>
+                <subtypeid>I:\CAMIO4\SCRIPPS 2019 WRTV\Scenes\FS Bullets Image Video.crd</subtypeid>
+                <ObjectDetails>
+                  <ServerID>WRTVCAM</ServerID>
+                  <ServerURL>http://10.38.10.72/CAMIO4/Services/Redirection/MosRedirectionService.svc</ServerURL>
+                  <layer>1</layer>
+                  <style />
+                  <pausecount>-1</pausecount>
+                </ObjectDetails>
+              </mosPayload>
+            </mosExternalMetadata>
+          </mosObj>
+          <itemID>1</itemID>
+          <ncsItem />
+        </storyItem>
+        <p>
+          <pi>no font</pi>
+        </p>
+        <p>
+          <tab />HEALTH OFFICIALS CONTINUE TO ENCOURAGE PEOPLE TO GET TESTED FOR COVID.</p>
+        <p>
+          <tab />ANYONE WHO LIVES OR WORKS IN INDIANA CAN GET TESTED FOR FREE.</p>
+        <p>
+          <tab />REGISTER BY GOING TO "L-H-I DOT CARE SLASH COVID TESTING".</p>
+        <p>
+          <tab />OR BY CALLING 888-634-1116.</p>
+      </storyBody>
+    </roStorySend>
+  </mos>
+  <mos>
+    <mosID>IGNITE.MOP</mosID>
+    <ncsID>WRTV</ncsID>
+    <roStorySend>
+      <roID>WRTV/SHOW.856AM.RUNDOWN</roID>
+      <storyID>124085029</storyID>
+      <storySlug>COVID TESTING</storySlug>
+      <storyNum>706</storyNum>
+      <mosExternalMetadata>
+        <mosPayload>
+          <nsml:nsml xmlns:nsml="http://www.avid.com">
+            <nsml:head>
+              <nsml:meta words="37" rate="180" />
+              <nsml:wgroup number="15" />
+              <nsml:formname>STORYFORM</nsml:formname>
+              <nsml:storyid>07656325:012d1603:5f8997dc</nsml:storyid>
+            </nsml:head>
+            <nsml:fields>
+              <nsml:f id="v-dir" />
+              <nsml:f id="var-1" />
+              <nsml:f id="page-number">706</nsml:f>
+              <nsml:f id="presenter">LC</nsml:f>
+              <nsml:f id="title">COVID TESTING</nsml:f>
+              <nsml:f id="v-ap">TB*</nsml:f>
+              <nsml:f id="format">FS</nsml:f>
+              <nsml:f id="var-5" />
+              <nsml:f id="graphics" />
+              <nsml:f id="v-graphic" />
+              <nsml:f id="runs-time">0</nsml:f>
+              <nsml:f id="audio-time">12</nsml:f>
+              <nsml:f id="total-time">12</nsml:f>
+              <nsml:f id="back-time" />
+              <nsml:f id="endorse-by">tlogan</nsml:f>
+              <nsml:f id="cam" />
+              <nsml:f id="shot" />
+              <nsml:f id="item-channel" />
+              <nsml:f id="video-id" />
+              <nsml:f id="event-status" />
+              <nsml:f id="tape" />
+              <nsml:f id="modify-date">1602852828</nsml:f>
+              <nsml:f id="modify-by">druffo</nsml:f>
+              <nsml:f id="edby" />
+              <nsml:f id="status">OK</nsml:f>
+              <nsml:f id="timecode" />
+              <nsml:f id="app4-1" />
+              <nsml:f id="app5-1" />
+              <nsml:f id="app6-1" />
+              <nsml:f id="tme">CGDEC-</nsml:f>
+              <nsml:f id="air-date" />
+            </nsml:fields>
+            <nsml:body>
+              <nsml:p>
+                <nsml:a idref="0" />
+                <nsml:pi>FS LAUREN</nsml:pi>
+                <nsml:a idref="1" />
+                <nsml:pi>no font</nsml:pi>
+              </nsml:p>
+              <nsml:p>
+                <nsml:tab />HEALTH OFFICIALS CONTINUE TO ENCOURAGE PEOPLE TO GET TESTED FOR COVID.</nsml:p>
+              <nsml:p>
+                <nsml:tab />ANYONE WHO LIVES OR WORKS IN INDIANA CAN GET TESTED FOR FREE.</nsml:p>
+              <nsml:p>
+                <nsml:tab />REGISTER BY GOING TO "L-H-I DOT CARE SLASH COVID TESTING".</nsml:p>
+              <nsml:p>
+                <nsml:tab />OR BY CALLING 888-634-1116.</nsml:p>
+            </nsml:body>
+            <nsml:aeset>
+              <nsml:ae id="0">
+                <nsml:ap>]] S3.0 G 0 [[</nsml:ap>
+                <nsml:ap>FULL SCREEN</nsml:ap>
+              </nsml:ae>
+              <nsml:ae id="1">
+                <nsml:ap>]] S3.0 M 0 [[</nsml:ap>
+                <nsml:mc>
+                  <nsml:ap>MOSCG ]] 1 YNNAM 0 [[ [T] [00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</nsml:ap>
+                </nsml:mc>
+              </nsml:ae>
+            </nsml:aeset>
+            <nsml:aeset-atts>
+              <nsml:attachment id="1">
+                <AttachmentContent>
+                  <mos>
+                    <mosID>WRTVCAM</mosID>
+                    <ncsID>WRTV</ncsID>
+                    <mosObj>
+                      <objID>SCRIPPS 2019 WRTV\00030335</objID>
+                      <objSlug>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</objSlug>
+                      <mosItemEditorProgID>Chymox.AssetBrowser.1</mosItemEditorProgID>
+                      <mosAbstract>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</mosAbstract>
+                      <itemChannel>T</itemChannel>
+                      <objPaths>
+                        <objProxyPath techDescription="PNG Proxy">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_proxy.png</objProxyPath>
+                        <objProxyPath techDescription="JPEG Thumbnail">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_big.jpg</objProxyPath>
+                      </objPaths>
+                      <mosExternalMetadata>
+                        <mosScope>PLAYLIST</mosScope>
+                        <mosSchema>http://ncsA4.com/mos/supported_schemas/NCSAXML2.08</mosSchema>
+                        <mosPayload>
+                          <sAVsom />
+                          <sAVeom />
+                          <createdBy>tbroz</createdBy>
+                          <subtype>prime-graphics</subtype>
+                          <subtypeid>I:\CAMIO4\SCRIPPS 2019 WRTV\Scenes\FS Bullets Image Video.crd</subtypeid>
+                          <ObjectDetails>
+                            <ServerID>WRTVCAM</ServerID>
+                            <ServerURL>http://10.38.10.72/CAMIO4/Services/Redirection/MosRedirectionService.svc</ServerURL>
+                            <layer>1</layer>
+                            <style />
+                            <pausecount>-1</pausecount>
+                          </ObjectDetails>
+                        </mosPayload>
+                      </mosExternalMetadata>
+                    </mosObj>
+                    <itemID>1</itemID>
+                    <ncsItem />
+                  </mos>
+                </AttachmentContent>
+              </nsml:attachment>
+            </nsml:aeset-atts>
+          </nsml:nsml>
+        </mosPayload>
+      </mosExternalMetadata>
+      <storyBody>
+        <p />
+        <p>
+          <pi>FS LAUREN</pi>
+        </p>
+        <storyItem>
+          <mosID>WRTVCAM</mosID>
+          <ncsID>WRTV</ncsID>
+          <mosObj>
+            <objID>SCRIPPS 2019 WRTV\00030335</objID>
+            <objSlug>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</objSlug>
+            <mosItemEditorProgID>Chymox.AssetBrowser.1</mosItemEditorProgID>
+            <mosAbstract>[00030335] (FS Bullets Image Video) | Blue | Image | ALL | OFF | WORKING | FOR YOU | Free COVID-19 Testing  | Anyone who lives or works in Indiana  | Register Online: | lhi.care/covidtesting | Register by Phone: | 888-634-1116 | Coronavirus_Indiana-blue</mosAbstract>
+            <itemChannel>T</itemChannel>
+            <objPaths>
+              <objProxyPath techDescription="PNG Proxy">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_proxy.png</objProxyPath>
+              <objProxyPath techDescription="JPEG Thumbnail">http://10.38.10.72/thumbs/SCRIPPS 2019 WRTV/30000/Objects_SCRIPPS 2019 WRTV_00030335_big.jpg</objProxyPath>
+            </objPaths>
+            <mosExternalMetadata>
+              <mosScope>PLAYLIST</mosScope>
+              <mosSchema>http://ncsA4.com/mos/supported_schemas/NCSAXML2.08</mosSchema>
+              <mosPayload>
+                <sAVsom />
+                <sAVeom />
+                <createdBy>tbroz</createdBy>
+                <subtype>prime-graphics</subtype>
+                <subtypeid>I:\CAMIO4\SCRIPPS 2019 WRTV\Scenes\FS Bullets Image Video.crd</subtypeid>
+                <ObjectDetails>
+                  <ServerID>WRTVCAM</ServerID>
+                  <ServerURL>http://10.38.10.72/CAMIO4/Services/Redirection/MosRedirectionService.svc</ServerURL>
+                  <layer>1</layer>
+                  <style />
+                  <pausecount>-1</pausecount>
+                </ObjectDetails>
+              </mosPayload>
+            </mosExternalMetadata>
+          </mosObj>
+          <itemID>1</itemID>
+          <ncsItem />
+        </storyItem>
+        <p>
+          <pi>no font</pi>
+        </p>
+        <p>
+          <tab />HEALTH OFFICIALS CONTINUE TO ENCOURAGE PEOPLE TO GET TESTED FOR COVID.</p>
+        <p>
+          <tab />ANYONE WHO LIVES OR WORKS IN INDIANA CAN GET TESTED FOR FREE.</p>
+        <p>
+          <tab />REGISTER BY GOING TO "L-H-I DOT CARE SLASH COVID TESTING".</p>
+        <p>
+          <tab />OR BY CALLING 888-634-1116.</p>
+      </storyBody>
+    </roStorySend>
+  </mos>
+</Root>
