@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml.Linq;
+using Microsoft.Win32;
 
 namespace WpfApp1
 {
@@ -29,23 +30,27 @@ namespace WpfApp1
                         
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        private void btnBrowse_Click(object sender, RoutedEventArgs e)
         {
-            doc = XDocument
-                .Load(@"C:\Users\AWR03011\source\repos\WpfApp1\101620_MOPLogs.mtl.xml")
-                .Root.Descendants("LogEntry").Descendants("RawMOS")
-                .Select(x => XDocument.Parse(x.Value).Root)
-                .GroupBy(x => x.Elements().ElementAt(2).Element("roID").Value)
-                .ToDictionary(
-                    x => x.Key,
-                    x => x
-                );
-            
-            // Adding roID inside cboroId
-            doc.Keys.ToList().ForEach(x => cbroId.Items.Add(x));
-                        
-        }
+            OpenFileDialog openFileDlg = new OpenFileDialog();
+            if (openFileDlg.ShowDialog() == true)
+            {
+                lbl_Filename.Content = openFileDlg.FileName.ToString();
 
+                doc = XDocument
+                    .Load(lbl_Filename.Content.ToString())
+                    .Root.Descendants("LogEntry").Descendants("RawMOS")
+                    .Select(x => XDocument.Parse(x.Value).Root)
+                    .GroupBy(x => x.Elements().ElementAt(2).Element("roID").Value)
+                    .ToDictionary(
+                        x => x.Key,
+                        x => x
+                    );
+
+                // Adding roID inside cboroId
+                doc.Keys.ToList().ForEach(x => cbroId.Items.Add(x));
+            }
+        }
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
@@ -56,7 +61,12 @@ namespace WpfApp1
             doc.Values.ToList().Where(x => x.Key == choice)
                 .ToList().ForEach(x => tosave.Root.Add(x));
 
-            tosave.Save(@"C:\Users\AWR03011\source\repos\WpfApp1\MosList.xml");
+            SaveFileDialog saveFileDlg = new SaveFileDialog();
+            if (saveFileDlg.ShowDialog() == true)
+            {
+                tosave.Save("MosList.xml");
+            }
+
         }
 
     }
